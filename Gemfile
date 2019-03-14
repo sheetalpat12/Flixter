@@ -30,6 +30,8 @@ gem "figaro"
 gem "fog-aws"
 
 gem "mini_magick"
+
+gem 'carrierwave-aws'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
