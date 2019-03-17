@@ -4,7 +4,7 @@
   <h1><%= @course.title %></h1>
   <br />
   <div class="row">
-<div class="col-sm-4 col-12">
+<div class="col-sm-4 col-12 text-center">
   <span class="badge badge-default">
     <%= number_to_currency @course.cost %>
   </span>
@@ -50,7 +50,7 @@
   </div>
 
   <div class="col-12">
-    <% @course.sections.each do |section| %>
+     <% @course.sections.rank(:row_order).each do |section| %>
     <br /><br />
       <div class="section">
         <h3><b><ul><li><%= section.title %></li></ul></b></h3>

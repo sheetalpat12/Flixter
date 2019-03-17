@@ -38,6 +38,8 @@ gem 'stripe'
 gem 'ranked-model'
 
 gem 'jquery-ui-rails'
+
+gem "font-awesome-rails"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
