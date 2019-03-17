@@ -34,6 +34,8 @@ gem "mini_magick"
 gem 'carrierwave-aws'
 
 gem 'stripe'
+
+gem 'ranked-model'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
