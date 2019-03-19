@@ -6,4 +6,10 @@ class StaticPagesController < ApplicationController
 
   def privacy
   end
+
+  def career
+  end
+
+  def team
+  end
 end
